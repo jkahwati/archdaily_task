@@ -16,10 +16,16 @@ Archdaily task
 4) Ejecutar el proyecto en la consola: ruby main.rb
 te
 
+Selecciona una opción:
+	  1: Scenario 1
+	  2: Scenario 2
+	  3: Scenario 3
+	  4: Scenario 4
+	  5: Agregar un nuevo scenario (json)
+	  6: Pruebas automáticas (rspec)
+	  7: Salir"
 
-
-
-
+_________________________________________________________________________
 
 The Context
 
