@@ -9,8 +9,10 @@ Archdaily task
 2) bundle install
 
 3) sudo gem install json
-   sudo gem install rspec
-   sudo gem install pry
+   
+4) sudo gem install rspec
+   
+5) sudo gem install pry
 
 
 4) Ejecutar el proyecto en la consola: ruby main.rb
