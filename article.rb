@@ -31,7 +31,7 @@ class Article
 			end
 		end
 
-		p final_recomended_articles
+		puts final_recomended_articles
 
 	end
 
