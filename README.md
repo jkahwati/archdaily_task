@@ -16,7 +16,7 @@ Archdaily task
 
 
 4) Ejecutar el proyecto en la consola: ruby main.rb
-te
+
 
 Selecciona una opción:
 	  1: Scenario 1
