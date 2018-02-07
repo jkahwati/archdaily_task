@@ -19,13 +19,13 @@ Archdaily task
 
 
 Selecciona una opción:
-	  1: Scenario 1
-	  2: Scenario 2
-	  3: Scenario 3
-	  4: Scenario 4
-	  5: Agregar un nuevo scenario (json)
-	  6: Pruebas automáticas (rspec)
-	  7: Salir"
+1) Scenario 1
+2) Scenario 2
+3) Scenario 3
+4) Scenario 4
+5) Agregar un nuevo scenario (json)
+6) Pruebas automáticas (rspec)
+7) Salir"
 
 _________________________________________________________________________
 
