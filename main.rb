@@ -1,4 +1,4 @@
-require "./article"
+require "./lib/article"
 require 'json'
 
 file = File.read('articles_recomendation.json')
