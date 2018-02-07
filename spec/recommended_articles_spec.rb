@@ -2,8 +2,6 @@ require "./lib/article"
 require 'pry'
 require 'json'
 
-
-
 describe Article do 
 
   scenario = 
@@ -22,8 +20,8 @@ describe Article do
             }'
 
   scenario1 = JSON.parse(scenario)
-  context "given 52323" do
-    it "returns 5" do
+  context "given scenario 1" do
+    it "returns [345048]" do
     	art = Article.new
     	msg = art.recomended(scenario1)
       expect(msg).to eq([345048])
@@ -101,8 +99,8 @@ describe Article do
               }'
 
   scenario2 = JSON.parse(scenario)
-  context "given scenario2" do
-    it "returns [345048]" do
+  context "given scenario 2" do
+    it "returns [790952, 103678, 788138, 802358]" do
     	art = Article.new
     	msg = art.recomended(scenario2)
       expect(msg).to eq([790952, 103678, 788138, 802358])
@@ -152,8 +150,6 @@ scenario =
       expect(msg).to eq([103678, 790952, 802358, 788138])
     end
   end
-
-  
 
 scenario = 
           '{
@@ -208,12 +204,12 @@ scenario =
           }'
 
   scenario4 = JSON.parse(scenario)
-  context "given scenario2lkjsd" do
-    it "returns [345048]" do
+  context "given scenario 3" do
+    it "returns [790952, 103678, 802358, 562873]" do
     	art = Article.new
     	msg = art.recomended(scenario4)
       expect(msg).to eq([790952, 103678, 802358, 562873])
     end
   end
-end
 
+end
