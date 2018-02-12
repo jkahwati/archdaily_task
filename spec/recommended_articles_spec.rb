@@ -1,4 +1,4 @@
-require "./lib/article"
+require 'gemarticle'
 require 'pry'
 require 'json'
 

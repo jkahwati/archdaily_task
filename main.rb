@@ -1,4 +1,4 @@
-require "./lib/article"
+require 'gemarticle'
 require 'json'
 continue = true
 while(continue)
