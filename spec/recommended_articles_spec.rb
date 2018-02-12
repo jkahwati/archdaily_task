@@ -1,5 +1,4 @@
 require "./lib/article"
-require 'pry'
 require 'json'
 
 describe Article do 
